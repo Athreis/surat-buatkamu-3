@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+body{
+    background: rgb(0,132,252);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 144px;
+}
+
+.kotak{
+    height: auto;
+    width: auto;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 4px 10px 26px 1px rgba(0, 69, 173, 0.75);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_atas{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 750;
+    padding-bottom: 16px;
+}
+
+
+.gambar{
+    height: 100px;
+    width: 100px;
+    padding-left: 40px;
+    padding-bottom: 16px;
+}
+
+
+.text_bawah{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding-bottom: 16px;
+    text-align: center;
+    color: blue;
+}

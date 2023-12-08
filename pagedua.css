@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+video{
+    border-radius: 50px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+#audio{
+  display: none;
+}
+
+
+.background{
+    background-image: url('sky.jpg');
+    background-position: center;
+    position: relative;
+    background-size: cover;
+
+}
+
+
+
+.container{
+    padding-top: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 36px;
+}
+
+
+.tombol{
+    padding: 15px 30px 15px 30px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+
+
+.item {
+    width: 400px;
+    height: 100px;
+    margin: 50px auto;
+    background: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+  }
+
+
+  .item0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  .item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  
+  .item5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+

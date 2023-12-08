@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagedua.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+</head>
+
+
+<body class="background">
+
+
+
+    <audio controls autoplay id="audio"  >
+        <source src="cant.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <div class="container">
+        <video width="320" height="240" controls autoplay loop>
+            <source src="bear.mp4" type="video/mp4">
+          </video>
+
+
+          
+    </div>
+        
+       <div class="container1">
+        <button class="tombol">Scroll Pelan Pelan yaa</button>
+       </div>
+   
+
+
+
+       <div class="item item0" data-aos="fade-up">Halloo cantikkk, happy birthday!!!❤️</div>
+<div class="item item1" data-aos="fade-down">Aku bersyukur bisa kenal dan<br> sangat dekat sama kamu🤗🤗</div>
+<div class=" item item2" data-aos="fade-right">Aku merasa sangat nyaman ketika <br>bersamamu🥰🥰🥰</div>
+<div class="item item3" data-aos="fade-left"> sudah tidak bisa diungkapkan dengan kata kata lagi bagaimana aku sangat bersyukur <br>bisa mendapatkanmu😁😁😁</div>
+
+<div class="item item4" data-aos="zoom-in">Once again
+    Happy birthday pretty🤗❤️!!<br> Semoga kita bisa segera bertemu paus dan <br>semoga kita segera holiday ke curug atau pantaii🏖️</div>
+
+
+<div class="item item5" data-aos="zoom-out">And at the ending<br> I wanna say love you babe❤️❤️🥰🤗😘</div>
+
+    
+
+
+<div class="container1">
+    <button class="tombol"><a href="pageterakhir.html" id="link">Klik Disini ❤️</a></button>
+   </div>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+
+        var text = document.getElementById('text');
+        var music = document.getElementById('audio');
+        var link = document.getElementById('link');
+
+        // Cek apakah musik sudah pernah diaktifkan sebelumnya
+        var isMusicEnabled = localStorage.getItem('musicEnabled') === 'true';
+
+        // Jika musik sudah diaktifkan sebelumnya, nyalakan musik
+        if (isMusicEnabled) {
+            music.play();
+        }
+
+        // Tambahkan event listener pada tautan
+        link.addEventListener('click', function() {
+            // Nyalakan musik
+            music.play();
+            // Simpan status musik di localStorage
+            localStorage.setItem('musicEnabled', 'true');
+        });
+      </script>  
+</body>
+</html>
